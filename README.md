@@ -93,7 +93,7 @@ Takes a Streamabale shortcode and passes a `StreamableVideoResource` struct to t
 
 ##### Example
 ```swift
-StreamableVideo.shared.getVideoResource(shortcode: shortcode) { response in
+StreamableVideo.shared.getVideoResource(shortcode: "moo") { response in
     if let response = response {
     	// work with StreamableVideoResource API response info as needed ...
     }
